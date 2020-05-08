@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Sanalika Sipariş Formu</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sanalika Sipariş Formu</title>
+</head>
+<body onload="form1.txtAppleQ.focus();">
+	<form id="form1">
+		<table>
+			<tr><th class="center" colspan="4">Sanalika Sipariş Formu</th></tr>
+			<tr><th>Adet</th><th>Sipariş</th><th>Fiyat </th><th>Toplam</th></tr>
+			<tr><th><input class="right" type="text" id="txtAppleQ" value="" tabindex="1" /></th><th>Cacıklı Arap Köftesi </th>
+				<td class="right">190TL</td><th><input class="right" type="text" id="txtAppleT" value="" readonly/></th></tr>
+			<tr><th><input class="right" type="text" id="txtPearsQ" value="" tabindex="2"/></th><th>Falafel</th>
+				<td class="right">155TL</td><th><input class="right" type="text" id="txtPearsT" value="" readonly/></th></tr>
+			<tr><th><input class="right" type="text" id="txtGrapesQ" value="" tabindex="3"/></th><th>Hamburger</th>
+				<td class="right">90TL</td><th><input class="right" type="text" id="txtGrapesT" value="" readonly/></th></tr>
+			<tr><th><input class="right" type="text" id="txtMenemenQ" value="" tabindex="4"/></th><th>Menemen</th>
+				<td class="right">180TL</td><th><input class="right" type="text" id="txtMenemenT" value="" readonly/></th></tr>
+			<tr><th><input class="right" type="text" id="txtSamTatliQ" value="" tabindex="5"/></th><th>Şam Tatlısı</th>
+				<td class="right">145TL</td><th><input class="right" type="text" id="txtSamTatliT" value="" readonly/></th></tr>
+			<tr><th><input class="right" type="text" id="txtKarisikPizzaQ" value="" tabindex="6"/></th><th>Karışık Pizza</th>
+				<td class="right">150TL</td><th><input class="right" type="text" id="txtKarisikPizzaT" value="" readonly/></th></tr>
+			<tr><th><input class="right" type="text" id="txtitalyanPizzaQ" value="" tabindex="7"/></th><th>İtalyan Pizza</th>
+				<td class="right">160TL</td><th><input class="right" type="text" id="txtitalyanPizzaT" value="" readonly/></th></tr>
+			<tr><th><input class="right" type="text" id="txtHumusQ" value="" tabindex="8"/></th><th>Humus</th>
+			<tr><th><input class="right" type="text" id="txtQuantity" value="" readonly/></th><th class="right" colspan="2">Toplam Gider</th><th>
+				<input class="right" type="text" id="txtSubT" value="" readonly/></th></tr>
+			<tr><th class="right" colspan="3">Tahmini Kazanım @ 0.45%</th><th><input class="right" type="text" id="txtTax" value="" readonly/></th></tr>
+			<tr><th><input type="button" value="Hesapla" tabindex="4" onclick="compute();"></th><th class="right" colspan="2">Kazanım + Toplam</th>
+				<th><input class="right" type="text" id="txtTotal" value="" readonly/><br></th></tr>
+				<tr><th></th><th></th>
+					<td class="right"></td><th><p id="demo"></p></th></tr>
+		</table>
+	</form>
+</body>
+</html>
+  <script  src="./script.js"></script>
+</body>
+</html>

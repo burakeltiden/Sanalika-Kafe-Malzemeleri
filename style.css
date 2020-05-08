@@ -1,0 +1,117 @@
+/**********************************
+General reset
+***********************************/
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+/**********************************
+General styles
+***********************************/
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #384047;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+
+
+/**********************************
+Table styles
+***********************************/
+
+table {
+  max-width: 960px;
+  margin: 10% auto;
+}
+
+caption {
+  font-size: 1.6em;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+thead th {
+  font-weight: 400;
+  background: #8a97a0;
+  color: #FFF;
+}
+
+tr {
+  background: #f4f7f8;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+
+tr:nth-child(even) {
+  background: #e8eeef;
+}
+
+th, td {
+/*  text-align: left;*/
+  padding: 20px;
+  font-weight: 300;
+}
+
+tfoot tr {
+  background: none;
+}
+
+tfoot td {
+  padding: 10px 2px;
+  font-size: 0.8em;
+  font-style: italic;
+  color: #8a97a0;
+}
+
+input[type="button"] {
+  padding: 4% 1% 4% 1%;
+  color: #FFF;
+  background-color: #3ac162;
+  font-size: 1em;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 #3ac162 inset;
+  margin-bottom: 10px;
+}
+
+
+
+/**********************************
+Media Queries
+***********************************/
+
+@media only screen and (max-width: 630px) {
+    table {
+        max-width: 95%;
+        font-size: 0.75em;
+    }
+    input[type=text],
+    input[type="button"], 
+    textarea {
+        width: 100%;
+        font-size: 0.75em;
+    }
+}
