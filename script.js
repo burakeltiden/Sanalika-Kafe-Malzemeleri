@@ -146,6 +146,7 @@ function compute() {
 			secilenMalzemeler.push(secilen);
 		}
 	}
+	document.getElementById("demo").innerHTML ="";
 	var HTML = "<table border=0 width=100%><tr>";
 	for (var i = 1; i < secilenMalzemeler.length; i++) {
 		console.log(secilenMalzemeler[i][0] + ", " + secilenMalzemeler[i][1]);//ismi
